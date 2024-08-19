@@ -4,8 +4,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Zapier",
-  description: "Zapier Test App",
+  title: "Zinlt",
+  description: "Zintlr on Zapier Test App",
 };
 
 export default function RootLayout({ children }) {
