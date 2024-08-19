@@ -1,6 +1,7 @@
 export async function GET() {
   try {
     const list_data = [{
+      id: "1", 
       list_name: "Created AT",
       list_data: {
         first_name: "Harsh",
