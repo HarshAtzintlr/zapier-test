@@ -1,13 +1,17 @@
 export async function GET() {
   try {
-    const list_data = [{
-      id: "1", 
-      list_name: "Created AT",
-      list_data: {
-        first_name: "Harsh",
-        last_name: "Dubey",
-      },
-    }];
+    const list_data = {
+      list_name: "Important Contacts",
+      list_data: [
+        {
+          first_name: "Harsh",
+          last_name: "Dubey",
+          job: "Intern",
+          company: "Zintlr",
+          created_at: "2024-06-06",
+        },
+      ],
+    };
     return new Response(JSON.stringify(list_data), { status: 200 });
   } catch (error) {
     console.error("GET Error:", error.message);
