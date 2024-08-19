@@ -9,7 +9,6 @@ export default function Home() {
     const fetchMessage = async () => {
       try {
         const response = await axios.post("/api/response");
-        console.log(response);
 
         if (response.status === 200) {
           setReceivedMessage(response.data.receivedMessage);

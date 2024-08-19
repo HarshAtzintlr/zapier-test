@@ -1,9 +1,8 @@
 export async function POST(req) {
   try {
-    const body = await req.json(); // Parse the request body to JSON
-    const message = body.message; // Extract the "message" property
+    const body = await req.json();
 
-    return new Response(JSON.stringify({ receivedMessage: message }), {
+    return new Response(JSON.stringify({ message: "recieved message" }), {
       status: 200,
     });
   } catch (error) {
