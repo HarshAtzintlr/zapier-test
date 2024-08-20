@@ -5,9 +5,9 @@ export async function GET() {
       list_name: "Important Contacts",
       list_data: [
         {
-          first_name: "Harsh",
-          last_name: "Dubey",
-          job: "Intern",
+          first_name: "Harshhhh",
+          last_name: "Dubejhgghjgfhjy",
+          job: "Interhghjn",
           company: "Zintlr",
           created_at: "2024-06-06",
         },
